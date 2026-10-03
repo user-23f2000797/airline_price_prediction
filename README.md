@@ -26,7 +26,7 @@ The project includes the trained model and preprocessing files:
 
 Keep scikit-learn at version `1.2.2` because the model files were created with that version.
 
-Render uses the Python version declared in `runtime.txt`. Python 3.11.9 is pinned because scikit-learn 1.2.2 does not provide a compatible wheel for Python 3.14.
+Render uses the Python version declared in `.python-version`. Python 3.11.9 is pinned because scikit-learn 1.2.2 does not provide a compatible wheel for Python 3.14.
 
 The included `render.yaml` also sets `PYTHON_VERSION=3.11.9` and starts the service with Uvicorn on Render.
 
